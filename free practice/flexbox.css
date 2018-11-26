@@ -1,0 +1,22 @@
+/***********Flex Box***********/
+
+#parent {
+	background-color: darkgoldenrod;
+	height: 600px;
+	/*Flex box properties*/
+	display:flex;	
+}
+
+
+
+#parent div{
+	border: 1px dashed red;
+	padding: 15px;
+	background-color: #000;
+	color: #FFF;
+	flex: 1;
+}
+
+#parent #casilla2{
+flex: 2;
+}
